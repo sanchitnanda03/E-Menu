@@ -40,4 +40,4 @@ Click on the image above to watch the video.
 
 ## Contact
 
-For any inquiries or support, please contact [Your Name](mailto:sanchitnanda03@gmail.com).
+For any inquiries or support, please contact [Sanchit Nanda](mailto:sanchitnanda03@gmail.com).
