@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcd94"
+    android:orientation="vertical"
+    tools:context=".Desserts">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif"
+        android:text="SANCHIT'S RESTAURANT"
+        android:textAlignment="center"
+        android:textColor="#400000"
+        android:textSize="25sp"
+        android:textStyle="normal|bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/restaurant" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textColor="#ae0001"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DESSERTS"
+        android:textAlignment="center"
+        android:textColor="#400000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndap"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="APPLE PIE WITH VANILLA ICECREAM                  ₹180"
+                    android:textSize="14sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/applepie" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndwc"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="WALNUT CHOCOLATE BROWNY                             ₹230"
+                    android:textSize="12sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView38"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/browny" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndr"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="RASMALAI        ₹150"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/rasmalai" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndgh"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="Gajar Ka Halwa             ₹140"
+                    android:textSize="16sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/gajrela" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndgb"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="MOONG DAL HALWA           ₹190"
+                    android:textSize="16sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView40"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/moong" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndgj"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="GULAB JAMUN           ₹100"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView41"
+                    android:layout_width="114dp"
+                    android:layout_height="77dp"
+                    app:srcCompat="@drawable/gulabjamun" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btndic"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="ICE CREAM           ₹150"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="130dp"
+                    android:layout_height="81dp"
+                    app:srcCompat="@drawable/icecream" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

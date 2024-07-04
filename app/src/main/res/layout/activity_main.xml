@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcd94"
+    android:gravity="fill_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif"
+        android:text="SANCHIT'S RESTAURANT"
+        android:textAlignment="center"
+        android:textColor="#400000"
+        android:textSize="25sp"
+        android:textStyle="normal|bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/restaurant" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textColor="	#ae0001"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/north"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnn"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="NORTH INDIAN"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="112dp"
+                    android:layout_height="83dp"
+                    app:srcCompat="@drawable/paneergravy" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/masaladosa" />
+
+                <Button
+                    android:id="@+id/btns"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="South Indian"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnc"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="CHINESE"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/noodless" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp" >
+
+                <Button
+                    android:id="@+id/btnb"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="BREADS"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/roti" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp" >
+
+                <Button
+                    android:id="@+id/btnso"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="SOUPS"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/soup" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp" >
+
+                <Button
+                    android:id="@+id/btnd"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="DESSERTS"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/desserts" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btndeveloper"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:backgroundTint="#a0522d"
+                android:text="DEVELOPER'S INFO"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

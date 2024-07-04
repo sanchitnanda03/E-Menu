@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="#ffcd94"
+    android:orientation="vertical"
+    tools:context=".NorthIndian">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif"
+        android:text="SANCHIT'S RESTAURANT"
+        android:textAlignment="center"
+        android:textColor="#400000"
+        android:textSize="25sp"
+        android:textStyle="normal|bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/restaurant" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textColor="#ae0001"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="NORTH INDIAN"
+        android:textAlignment="center"
+        android:textColor="#400000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnncb"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="CHANA BHATURA           ₹240"
+                    android:textSize="16sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="151dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/channabhatura" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnnpp"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="PALAK PANEER   ₹290"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="147dp"
+                    android:layout_height="68dp"
+                    app:srcCompat="@drawable/palakpaneer" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnndm"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="DAL MAKHANI   ₹320"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dalmakhani" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnnpn"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="PANEER NAAN WITH GRAVY                  ₹210"
+                    android:textSize="16sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/paneernaan" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnndb"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="DAHI BHALLA   ₹190"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="139dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dahiballa" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="#ffa54f"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="11dp">
+
+                <Button
+                    android:id="@+id/btnnsb"
+                    android:layout_width="224dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#a0522d"
+                    android:text="SMOKED BAINGAN BHARTHA              ₹310"
+                    android:textSize="16sp"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bhartha" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
